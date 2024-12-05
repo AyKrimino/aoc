@@ -32,9 +32,6 @@ func main() {
       result += getNumberOf(grid, i, j, "XMAS", [2]int{0, 0})
     }
   }
-  fmt.Println(grid)
-  fmt.Println(len(grid))
-  fmt.Println(len(grid[0]))
   fmt.Println(result)
 }
 
